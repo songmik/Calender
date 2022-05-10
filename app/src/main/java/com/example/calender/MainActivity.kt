@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     @SuppressLint("NewApi")
     inner class DayViewContainer(view: View) :ViewContainer(view) {
         val textView = CalendarDayLayoutBinding.bind(view).calendarDayText
